@@ -21,9 +21,9 @@
 </div>
 
 <script>
-    var STATIC_PATH = '<?=$static_path?>',
-        SERVER_URL = '<?=$url?>',
-        FIELD_NAME = '<?=$formname?>',
-        CSRF  =  '<?=$csrf?>',
-        IMAGES = '<?=$images?>';
+    var STATIC_PATH = '<?=$static_path?>', //静态文件路径
+        SERVER_URL = '<?=$url?>', // 上传路径
+        FIELD_NAME = '<?=$formname?>', // 字段名称
+        CSRF  =  '<?=$csrf?>', // _csrf值
+        IMAGES = '<?=$images?>'; // 修改时 已有的值
 </script>

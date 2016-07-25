@@ -1,16 +1,18 @@
 <?php
 
-namespace app\modules\administer\components;
+namespace vcico\webuploader;
 
 use yii\base\Behavior;
 use yii\db\ActiveRecord;
 
 /**
- * Description of UploadBehavior
- *@todo  修改 多字段
- * @author Administrator
+ * 上传行为 ： 检查数据前数组转换为字符串、上传后清除缓存、修改时对比 新增添加 删除则清除文件等 
+ * @todo  修改 多字段
+ * @author cgjcgs
  */
-class UploadBehavior extends Behavior{
+class UploaderBehavior extends Behavior{
+	
+	public $fields; // 多字段
     
     public function events()
     {

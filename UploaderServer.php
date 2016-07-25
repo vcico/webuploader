@@ -1,10 +1,14 @@
 <?php
-namespace app\modules\administer\components;
+namespace vcico\webuploader;
 
+
+/**
+ * 文件上传服务端
+ */
 use yii\base\Exception;
 use Yii;
 
-class WebuploaderServer{
+class UploaderServer{
     public $errors = [];
     public $file;
     public function upload($field,$cate){

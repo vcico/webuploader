@@ -1,0 +1,10 @@
+{
+	"name":"vcico/webuploader",
+	"description": "基于Yii2的webuploader上传插件 支持分片上传 多字段 缩略图 ",
+	"homepage": "http://www.vcico.com/",
+    "keywords": ["Yii2", "webuploader","uploader"],
+	"require":{
+		"php": ">=5.4.0",
+		"yiisoft/yii2": ">=2.0.5"
+	}
+}
