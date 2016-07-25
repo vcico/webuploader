@@ -1,0 +1,8 @@
+html,body {margin:0;padding:0;height:100%;_height:100%;}
+#content { width:100%;height:100%;background:url('../img/login.png');}
+#form-parent{width:635px;height:335px;margin:0 auto;}
+#form-box{width:100%;height:100%; background:url('../img/loginform.png') no-repeat;margin-top:30%;float:left;}
+#form-box h1{text-align:center;padding:25px 0 15px 0;}
+#form-box > *{width:50%;margin:0px auto;margin-bottom:5px;}
+#form-box .VerifiyCode .form-group{float:left;width:50%;margin-right:20px;margin-bottom: 5px;}
+#captchaimg{cursor:pointer;height:33px;float:left;}
